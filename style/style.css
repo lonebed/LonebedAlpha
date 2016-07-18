@@ -48,13 +48,13 @@ body{
 	top:15px;
 	height:50px;
 	width: 50px;	
+	margin-right: 0px;
 }
 .title{
-	color: #a6a6a6;
+	color: white;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
-	font-weight: 
-	padding-left: 100px;
-	margin-left:60px;
+	font-weight: 700;
+	padding-left: 70px;
 	margin-top:20px;
 	float:left;
 }
@@ -63,7 +63,7 @@ body{
 	top:25%;
 	left:50%;
 	font-size: 1.5em;
-	color: #a6a6a6;
+	color: white;
 	font-weight: 500;
 	font-family: 'Roboto', sans-serif;
 	transform: translate(-50%,-50%);
@@ -75,7 +75,7 @@ body{
 	top:80%;
 	left:50%;
 	font-size: 1.5em;
-	color: #a6a6a6;
+	color: white;
 	font-weight: 500;
 	font-family: 'Roboto', sans-serif;
 	transform: translate(-50%,-50%);
@@ -99,7 +99,7 @@ body{
 	}
 #mc-embedded-subscribe{
 	border: solid;
-	color: #a6a6a6 ;
+	color: white;
 	background-color: transparent;
 	width: 9rem;
 	height: 2.8rem;
@@ -112,7 +112,7 @@ body{
 	}
 ::-webkit-input-placeholder { /* Chrome */
 	font-size:1.2rem;
-	color: #a6a6a6;
+	color: white;
 	font-weight: bold;
 
 }
@@ -121,7 +121,7 @@ body{
 	top:90%;
 	left:50%;
 	font-size: 2rem;
-	color: #a6a6a6;
+	color: white;
 	font-weight: 500;
 	transform: translate(-50%,-50%);
 	z-index: 2;
