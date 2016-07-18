@@ -50,7 +50,7 @@ body{
 	width: 50px;	
 }
 .title{
-	color: white;
+	color: #a6a6a6;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-weight: 
 	padding-left: 100px;
@@ -63,7 +63,7 @@ body{
 	top:25%;
 	left:50%;
 	font-size: 1.5em;
-	color: white;
+	color: #a6a6a6;
 	font-weight: 500;
 	font-family: 'Roboto', sans-serif;
 	transform: translate(-50%,-50%);
@@ -75,7 +75,7 @@ body{
 	top:80%;
 	left:50%;
 	font-size: 1.5em;
-	color: white;
+	color: #a6a6a6;
 	font-weight: 500;
 	font-family: 'Roboto', sans-serif;
 	transform: translate(-50%,-50%);
@@ -99,7 +99,7 @@ body{
 	}
 #mc-embedded-subscribe{
 	border: solid;
-	color: white;
+	color: #a6a6a6 ;
 	background-color: transparent;
 	width: 9rem;
 	height: 2.8rem;
@@ -112,7 +112,7 @@ body{
 	}
 ::-webkit-input-placeholder { /* Chrome */
 	font-size:1.2rem;
-	color: white;
+	color: #a6a6a6;
 	font-weight: bold;
 
 }
@@ -121,7 +121,7 @@ body{
 	top:90%;
 	left:50%;
 	font-size: 2rem;
-	color: white;
+	color: #a6a6a6;
 	font-weight: 500;
 	transform: translate(-50%,-50%);
 	z-index: 2;
