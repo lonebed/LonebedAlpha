@@ -19,6 +19,7 @@ body{
 }
 .video{
 	position: absolute;
+	
 	top:50%;
 	left:50%;
 	transform: translate(-50%,-50%);
@@ -29,6 +30,7 @@ body{
 	width: auto;
 	height: auto;
 	z-index:1;
+	
 }
 .text{
 	position: absolute;
@@ -67,20 +69,49 @@ body{
 	transform: translate(-50%,-50%);
 
 }
-#subscribe{
-		position: absolute;
-		top:50px;
-		left:50px;
-
-		z-index: 2;
-	}
 
 #mc_embed_signup{
 	position: absolute;
-	background:#fff; 
-	clear:left; 
-	font:14px Helvetica,Arial,sans-serif; 
+	top:80%;
+	left:50%;
+	font-size: 1.5em;
+	color: white;
+	font-weight: 500;
+	font-family: 'Roboto', sans-serif;
+	transform: translate(-50%,-50%);
 	z-index: 2;
+	background-color: transparent;
+
+
+	}
+#mce-EMAIL{
+	width: 20rem;
+	height: 2rem;
+	background-color: transparent;
+	border-style: solid;
+	border-top:none;
+	border-right:none;
+	border-left:none;
+	border-color: white;
+	border-width: 3px;
+
+
+	}
+#mc-embedded-subscribe{
+	border: solid;
+	color: white;
+	background-color: transparent;
+	width: 9rem;
+	height: 2.5rem;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+.clear , #mc-embedded-subscribe ,#mce-EMAIL {
+		display: inline;
+	}
+::-webkit-input-placeholder { /* Chrome */
+	font-size:1.2rem;
+	color: white;
+	font-weight: bold;
 
 }
-	
