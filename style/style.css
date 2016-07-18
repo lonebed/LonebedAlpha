@@ -102,9 +102,10 @@ body{
 	color: white;
 	background-color: transparent;
 	width: 9rem;
-	height: 2.5rem;
+	height: 2.8rem;
 	font-size: 1.2rem;
 	font-weight: bold;
+	padding-bottom: 0px;
 }
 .clear , #mc-embedded-subscribe ,#mce-EMAIL {
 		display: inline;
