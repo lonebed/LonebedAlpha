@@ -72,7 +72,7 @@ body{
 	position: absolute;
 	top:80%;
 	left:50%;
-	font-size: 1.5em;
+	font-size: 1.5rem;
 	color: white;
 	font-weight: 500;
 	font-family: 'Roboto', sans-serif;
@@ -92,7 +92,6 @@ body{
 	border-left:none;
 	border-color: white;
 	border-width: 3px;
-
 
 	}
 #mc-embedded-subscribe{
@@ -136,5 +135,35 @@ input:focus{
 }
 /*media quiries*/
 @media screen and (max-width: 980px){
-	
+	#mce-EMAIL{
+		width: 10rem;
+		height: 1.5rem;
+
+
+	}
+	#mc-embedded-subscribe{
+		width: 6rem;
+		font-size: 0.8rem;
+		height: 2rem;
+
+
+	}
+
+	::-webkit-input-placeholder { /* Chrome */
+	font-size:0.8rem;
+	color: white;
+	font-weight: bold;
+
+}
+	.intro{
+			font-size: 1.1em;
+
+	}
+	.social_media{
+		font-size:1.7rem;
+	}
+
+
+
+
 }
