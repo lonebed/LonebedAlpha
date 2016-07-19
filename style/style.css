@@ -134,3 +134,7 @@ a{
 input:focus{
 	outline: none;
 }
+/*media quiries*/
+@media screen and (max-width: 980px){
+	
+}
