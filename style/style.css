@@ -165,8 +165,11 @@ input:focus{
 
 
 @media screen and (max-width: 650px){
+	.text{
+		min-width: 100%;
+	}
 	.intro{
-			font-size: 0.65rem;
+			font-size: 0.6rem;
 
 	}
 		#mce-EMAIL{
