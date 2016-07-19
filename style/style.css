@@ -131,3 +131,6 @@ padding-left: 3rem;
 a{
 	color:white;
 }
+input:focus{
+	outline: none;
+}
